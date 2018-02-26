@@ -1,0 +1,280 @@
+﻿<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="../Pages_CSS/presentation_des_galaxies_et_formulaire.css" />
+		<title>Inscrivez-vous !</title>
+	</head>
+	<body>
+		
+		<a id="haut"> </a>
+		
+		
+		
+		<div id="Entête"> 
+			<a class="menu_float_gauche" href="presentation_des_galaxies.html"> Présentation des galaxies </a>
+			<a class="menu_float_gauche" href="notre_galaxie.html"> Notre Galaxie </a>
+			<a class="menu_float_gauche" href = "Trou_noir.html" > Les trous noirs </a>
+			<a class="menu_float_gauche" href="Glossaire.html">Glossaire des galaxies </a>
+			<a class="menu_float_gauche" href="formulaire.html">Inscrivez-vous !</a>
+		</div>
+	
+		<h1> Inscrivez-vous ! </h1>
+		
+		
+			
+		<img src="../Photos/galaxie_un.jpg" height="150" width="200" alt="Galaxie irrégulière nommée NGC 6240" class="image_float_gauche" title="NGC 6240"/>
+		<img src="../Photos/galaxie_deux.jpg" height="150" width="200" alt="Galaxie irrégulière nommée NGC 6240" class="image_float_droit" title="NGC 6240"/>
+		
+		<br/>
+		<br/>
+			
+		<div id="intro_generalites">
+			<p> Les galaxies ont de nombreuses propriétés qui font qu'elles nous paraissent exceptionnelles. <br/> Voici quelques données impressionantes
+				sur les galaxies : 
+			</p>
+		</div>
+		
+		<div id="donnees_galaxie">
+			<ol>
+			
+				<li class="donnee"> Leur impressionnante taille <br/>
+				
+				 Saviez-vous qu'il nous faudrait 100 000 ans pour traverser la totalité de notre Galaxie à la vitesse de la lumière ?
+					Sachant que la vitesse de la lumière est de 3*10<sup>8</sup> m/s et que 100 000 ans contiennent 3,157*10<sup>12</sup> secondes, notre Galaxie a un ordre
+					de grandeur de 9*10^20 m !
+				</li>	
+				
+				
+				<li class="donnee"> Leur impressionnate vitesse <br/>
+					
+					 Saviez-vous que la planète Terre nous propulse à 30 km/s autour du Soleil ? Que ce dernier va, quant à lui, à 230 km/s autour du centre de la Voie Lactée ?
+					 Et que cette dernière se déplace à 90 km/s vers la galaxie Andromède ? Ce qui résulte une vitesse incroyable !
+					
+					
+				</li>
+				
+			
+				<li class="donnee"> La densité de la Voie Lactée <br/>
+				
+				    Saviez-vous qu'il existe entre 100 et 400 milliards d'étoiles dans la Voie Lactée ? Cette fourchette est incroyable. Si le ciel est bien
+					découvert, nous sommes dans la possibilité d'en voir environs 2 500. 
+					
+				</li>
+			
+			
+			
+				<li class="donnee"> Les futures collisions <br/>
+				
+				    Comme nous l'avons dit auparavant, la Voie Lactée se dirige vers la galaxie d'Andromède. Saviez-vous que leur collision serait prévue dans
+					4 milliards d'années ?
+				</li>
+			
+			
+			
+				<li class="donnee"> La masse vertigineuse <br/>
+				
+				 Saviez-vous que si l'on additionne la masse des étoiles, des gaz et des poussières situés dans la Voie Lactée, nous obtenons une masse 55 milliards de	
+					fois plus grosse que celle du Soleil ? Sachant que le Soleil a une masse de 2*10^30 kg, notre Voie Lactée aurait une masse de 2*10^39 kg !
+				</li>
+			
+			
+			
+				<li class="donnee"> Nombre vertigineux de galaxies <br/>
+				
+				    Saviez-vous que ces dernières années, les astronomes pensaient que l'Univers était composé entre 100 et 200 milliards de galaxies ? Or,
+					d'après une étude récente menée par des scientifiques, l'Univers compterait 2 000 milliards de galaxies ! Et c'est un chiffre qui
+					pourrait encore évoluer ...
+					
+				</li>	
+
+
+			</ol>
+			
+
+		</div>
+		
+		<div id="formulaire">
+		
+			<h3> Formulaire </h3>
+
+			<p class="donnee"> Vous souhaiteriez avoir davatange de connaissances sur les galaxies ? <br/> Inscrivez-vous à notre Newsletter qui paraît tous les quinze jours en
+				remplissant le formulaire ci-dessous !  
+			</p>
+			
+			<form method="POST">
+				
+				<fieldset>
+					<legend> Coordonnées Personnelles </legend>
+				
+				
+					<label> Sexe </label>
+					<div class="tableau">
+						<input id="homme" type="radio" name="choix_sexe" value="sexe_homme"/> 
+						<label for="homme"> Homme </label> 
+					</div>
+					<div class="tableau">
+						<input id="femme" type="radio" name="choix_sexe" value="sexe_femme"/> 
+						<label for="femme"> Femme </label> 
+					</div>
+					
+					<label>Civilité </label>
+					<div class="tableau">
+						<input id="monsieur" type="radio" name="choix_age" value="civilite_monsieur"/> 
+						<label for="monsieur"> M. </label>
+					</div>
+					<div class="tableau">
+						<input id="madame" type="radio" name="choix_age" value="civilite_madame"/> 
+						<label for="madame"> Mme </label>
+					</div>
+					<div class="tableau">
+						<input id="mademoiselle" type="radio" name="choix_age" value="civilite_mademoiselle"/> 
+						<label for="mademoiselle"> Mlle </label>
+					</div>
+				
+					<div class="tableau">
+						<label for="nom"> Nom </label>
+						<input id="nom" type="text" name="nom_utilisateur" required="required" placeholder="Entrez votre nom" >
+					</div>
+					
+					<div class="tableau">
+						<label for="prenom"> Prénom </label>
+						<input id="prenom" type="text" name="prenom_utilisateur" required="required" placeholder="Entrez votre prénom">
+					</div>
+					
+					
+					<div class="tableau">
+						<label for="datenaissance"> Date de naissance </label>
+						<input id="datenaissance" type="text" name="naissance_utilisateur" required="required" placeholder="Votre date de naissance" >
+					</div>
+					
+					<div class="tableau">
+						<label for="telephone"> Téléphone </label>
+						<input id="telephone" type="text" name="telephone_utilisateur" required="required" placeholder="Votre numéro de téléphone" >
+					</div>
+				
+					<div class="tableau">
+						<label for="adresse"> Adresse </label>
+						<input id="adresse" type="text" name="adresse_utilisateur" required="required" placeholder="Entrez votre adresse" >
+					</div>
+					
+					<div class="tableau">
+						<label for="ville"> Ville </label>
+						<input id="ville" type="text" name="ville_utilisateur" required="required" placeholder="Entrez votre ville" >
+					</div>
+					
+					<div class="tableau">
+						<label for="dept"> Département </label>
+						<input id="dept" type="text" name="dept_utilisateur" required="required" placeholder="Entrez votre département" >
+					</div>
+					
+					<div class="tableau">
+						<label for="mail"> Adresse Mail </label>
+						<input id="mail" type="text" name="mail_utilisateur" required="required" placeholder="Entrez votre email" >
+					</div>
+					
+				</fieldset>
+				
+				<fieldset>
+					<legend> Votre abonnement </legend>
+					
+					
+						<label> Revues disponibles </label>
+					
+						<div class="tableau">
+							<input id="choix_univers" type="checkbox" name="choix_divertissement" value="l'Unviers"> 
+							<label for="choix_univers"> L'Univers </label>
+						</div>
+						<div class="tableau">
+							<input id="choix_galaxie" type="checkbox" name="choix_divertissement" value="Les Galaxies " > 
+							<label for="choix_galaxie"> Les Galaxies </label>
+						</div>
+						<div class="tableau">
+							<input id="choix_espace" type="checkbox" name="choix_divertissement" value="L'Espace"> 
+							<label for="choix_espace"> l'Espace </label>
+						</div>
+						<div class="tableau">
+							<input id="choix_mystere" type="checkbox" name="choix_divertissement" value="Les Mystères" > 
+							<label for="choix_mystere"> Les Mystères de notre Univers </label>
+						</div>
+					
+					
+					<label>Durée </label>
+					<select name="select1">
+					
+						<option value="six_mois"> 6 mois - 12 numéros - 50 euros </option>
+						<option value="douze_mois"> 12 mois - 24 numéros et 2 hors-séries - 100 euros</option>
+						<option value="sans_hs"> Plus de 12 mois sans les hors-séries - Crédité sur votre carte </option>
+						<option value="avec_hs"> Plus de 12 mois avec les hors-séries - Crédité sur votre carte </option>
+						
+					</select>	
+					<br/>
+					<br/>
+					
+					
+					<label>Format de livraison</label>
+					<div class="tableau">
+						<input id="papier" type="radio" name="choix_format" value="format_papier"/> 
+						<label for="papier"> Papier </label>
+					</div>
+					<div class="tableau">
+						<input id="numerique" type="radio" name="choix_format" value="format_num"/> 
+						<label for="numerique"> Numérique </label>
+					</div>
+					
+				</fieldset>
+				
+				<fieldset>
+					<legend> Paiement </legend>
+					
+					<div class="tableau">
+						<label for="numCB"> Numéro de carte bleue </label>
+						<input id="numCB" type="text" name="num_CB" required="required" placeholder="Entrez votre numéro">
+					</div>	
+					
+					<div class="tableau">
+						<label for="crypto"> Cryptogramme </label>
+						<input id="crypto" type="text" name="cryptogramme" required="required" placeholder="Entrez votre cryptogramme" >
+					</div>
+					
+					<div class="tableau">
+						<label for="dateexp"> Date d'expiration </label>
+						<input id="dateexp" type="text" name="date_expiration" required="required" placeholder="Entrez votre date " >
+					</div>
+				
+				</fieldset>
+				
+				<fieldset>
+					<legend> Vos commentaires </legend>
+					
+					<p> Vos commentaires nous intéressent ! <br/>
+						Si vous souhaitez nous laisser un commentaire ou un avis, remplissez le cadre ci-dessous. 
+					</p>
+					
+					<div class="tableau">
+						<label for="comm"> Commentaire </label>
+						<textarea id="comm" name="commentaire" rows="10" cols="120">
+						</textarea>
+					</div>
+					
+				</fieldset>
+				
+				<fieldset>
+					<legend> Validation de votre demande </legend>
+					
+					<p> Pour valider votre demande, appuyer sur le bouton <q>envoi</q> ci-dessous. </p>
+					
+					<input type="submit" name="clic_sur_envoi" value="Envoi"> 
+					
+				</fieldset>
+				
+			</form>
+		</div>
+			
+		
+		<a href="#haut"> 
+		<img src="../Photos/fleche-haut.jpg" height="150" width="200" alt="image de retour haut de page" class="image_float_droit" title="Remonter en haut de page"/>
+		</a>
+	
+	</body>
+</html>

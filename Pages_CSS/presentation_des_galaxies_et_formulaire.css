@@ -1,0 +1,211 @@
+
+
+/* CSS COMMUN */
+
+body {
+	margin: 10px;
+	background-image: url("../Photos/image_de_fond.jpg");  
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color : white;
+	margin-left : 20px;
+	margin-right : 20px;
+}
+
+
+h1 {
+	
+	text-align : center;
+	clear : both;
+	border-bottom: 3px solid white;
+	
+}
+
+h2{
+	
+	clear : both;
+	color:white;
+	font-size:20pt;	
+		
+}
+
+
+
+a:link{color:white}
+a:visited{color:white}
+a:hover{color:white}
+
+
+#Entête{
+	background-color:#A4A4A4;
+	padding: 10px 5px 70px 5px;
+	font-size: 25pt;
+	border-style: solid ;
+    border-color: #24445C;
+
+}
+
+.menu_float_gauche{ /*OK*/
+	
+	width : 240px;
+    float: left;
+	background-color:#A4A4A4;
+	color: white;
+	font-size: 15px;
+	margin-top	: 2%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-bottom:1%;
+	text-align:center;
+	padding-left : 0%;
+	padding-right : 0%;
+}
+
+
+.image_float_droit{  
+	
+	float: right;
+	width : 200px;
+	
+}
+
+.image_float_gauche{ 
+	
+	width : 200px;
+    float: left; 
+}
+
+/* FIN CSS COMMUN */
+
+
+/* CSS PRESENTATION DES GALAXIES */
+
+.paragraphe_un { /*OK*/
+	
+	margin : 30px;
+	padding : 40px;
+	background-color : #24445C;
+	border-style: solid;
+    border-color: white;
+	
+}
+
+li{
+	clear : both;
+}
+
+h2+p{
+	
+	margin : 30px;
+	padding : 10px;
+	background-color : #24445C;
+	border-style: solid;
+    border-color: white;
+	
+}
+
+.para{
+	
+	margin : 30px;
+	padding : 10px;
+	margin-bottom:60px;
+	
+}
+
+.type_galaxie{ 
+	
+	margin : 30px;
+	padding : 10px;
+	background-color : #24445C;
+	border-style: solid;
+    border-color: white;
+	
+}
+
+img.aligner_image_centre{
+	
+	margin-left:200px;	
+}
+
+.mettre_en_italic{ 
+	
+	font-style: italic;
+}
+
+
+.exemple{
+	
+	margin : 80px;
+	background-color : #24445C;
+	border-style: solid;
+    border-color: white;
+	padding : 10px;
+	
+}
+
+/* FIN CSS PRESENTATION DES GALAXIES */
+
+
+/* CSS FORMULAIRE  */
+
+
+#intro_generalites{ 
+	
+	background-color: #24445C;
+	text-align:center;
+	margin-left:25%;
+	margin-right:25%;
+	border-style: solid;
+    border-color: white;
+}
+
+
+#donnees_galaxie{ 
+	
+	margin : 30px;
+	padding:10px;
+}
+
+
+.donnee{ 
+	
+	background-color:#24445C;
+	text-align:center;
+	margin :30px;
+	padding:10px;
+	clear : both;
+	border-style: solid;
+    border-color: white;
+}
+	
+#formulaire{
+	
+	margin : 30px;
+	padding : 10px;
+	background-color : #24445C;
+	border-style: solid;
+    border-color: white;
+}
+	
+div.tableau {
+	
+	display: table-row;
+}
+
+div.tableau >  input , div.tableau > label {
+	
+	display: table-cell;
+	vertical-align: middle;
+	padding: 4px;
+	margin: 5px;	
+}
+
+
+
+/* FIN CSS FORMULAIRE */
+
+
+
+
+
+
+

@@ -1,0 +1,182 @@
+
+
+/* CSS ELEMENTS COMMUNS  */
+
+body {
+	margin: 10px;
+	background-image: url("../Photos/image_de_fond.jpg");  
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color : white;
+	margin-left : 20px;
+	margin-right : 20px;
+}
+
+
+h1 {
+	
+	text-align : center;
+	clear : both;
+	border-bottom: 3px solid white;
+}
+
+h2{
+	
+	clear : both;
+	color:white;
+	font-size:20pt;	
+	
+}
+
+
+a:link{color:white}
+a:visited{color:white}
+a:hover{color:white}
+
+#Entête{
+	background-color:#A4A4A4;
+	padding: 10px 5px 70px 5px;
+	font-size: 25pt;
+	border-style: solid ;
+    border-color: #24445C;
+
+}
+
+.menu_float_gauche{ /*OK*/
+	
+	width : 240px;
+    float: left;
+	background-color:#A4A4A4;
+	color: white;
+	font-size: 15px;
+	margin-top	: 2%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-bottom:1%;
+	text-align:center;
+	padding-left : 0%;
+	padding-right : 0%;
+}
+
+.image_float_droit{
+	
+	float: right;
+	width : 200px;
+	
+}
+
+
+ /* CSS SPECIFIQUE NOTRE GALAXIE */
+
+
+h1+img{
+	
+	margin-left:35%;
+}
+
+h2+img{
+	
+	margin-left:10%;
+}
+
+div.paragraphe>img{
+	
+	margin-left : 35%;
+}
+
+.paragraphe{
+	
+	margin : 30px;
+	background-color : #24445C;
+	border-style: solid;
+    border-color: white;
+	padding : 1%;
+}
+
+.conteneur{ 
+	
+	margin : 30px;
+	padding : 10px;
+	clear : both;
+}
+
+
+
+
+#float_gauche{
+	
+	float : left;
+	width : 400px;
+	text-align :center;
+	
+	
+}
+
+.fond_plan {
+	
+	background-color : #24445C;
+	margin-left:30%;
+	margin-right:30%;
+	border-style: solid;
+    border-color: white;
+	text-align:center;
+}
+
+.fond_paragr {
+	background-color : #24445C;
+	padding-left:20px;
+	padding-right:20px;
+	border-style: solid;
+    border-color: white;
+}
+
+#float_centre{
+	
+	float : left;
+	width : 300px;
+	padding-left : 90px;
+	padding-right : 30px;
+}
+
+
+#float_droite{
+	
+	float : right;
+	width : 369px;
+	text-align : center;
+	
+}
+
+
+
+div.planete{
+	
+	
+	margin: 80px;
+	color: white;
+	text-align: center;
+	background-color:#24445C;
+	border-style: solid;
+    border-color: white;
+	padding-bottom : 20px;
+	
+}
+
+
+table {
+	
+    border-collapse: collapse;
+	border-color : white;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+td, th {
+	
+    border: 1px solid black;
+	border-color: white;
+}
+
+
+ /* CSS SPECIFIQUE NOTRE GALAXIE */
+
+

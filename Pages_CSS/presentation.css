@@ -1,0 +1,209 @@
+
+/* CSS COMMUN */
+
+body{
+	
+	color:#FBF8EF;
+	background-image:url("../Photos/image_de_fond.jpg");
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+a:link{color:white}
+a:visited{color:white}
+a:hover{color:white}
+
+
+h1{
+	color:white;
+	text-align:center;
+	font-size:30pt;	
+	border-bottom: 3px solid white;
+	clear : both;
+}
+
+h2{
+	color:white;
+	
+}
+
+
+#Entête{
+	
+	background-color:#A4A4A4;
+	padding: 10px 5px 70px 5px;
+	font-size: 25pt;
+	border-style: solid ;
+    border-color: #24445C;
+
+}
+
+.menu_float_gauche{ 
+	
+	width : 240px;
+    float: left;
+	background-color:#A4A4A4;
+	color: white;
+	font-size: 15px;
+	margin-top	: 2%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-bottom:1%;
+	text-align:center;
+	padding-left : 0%;
+	padding-right : 0%;
+}
+
+.image_float_droit{  
+	
+	float: right;
+	width : 200px;
+	
+}
+
+.image_float_gauche{ 
+	
+	width : 200px;
+    float: left; 
+}
+
+#both{
+	clear:both;
+}
+
+/* FIN CSS COMMUN */
+
+/* CSS TROUS NOIRS */
+
+.paragraphe_intro { /*OK*/
+	
+	margin : 30px;
+	padding : 40px;
+	background-color : #24445C;
+	border-style: solid;
+    border-color: white;
+	
+}
+
+#centre
+{
+	margin: 0.5%;
+}
+
+.txt_trous_Noir{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	margin: 1%;
+	padding: 10px 10px 10px 10px;
+	line-height: 1.6em;
+	padding-left:20px;
+	background-color : #24445C;
+	border-style: solid;
+    border-color: white;
+}
+
+#img1
+{
+	margin:1%;
+	float:right;
+	width: 35%;
+}
+
+
+#txt_trous_Noir_special_2{
+	margin: 1%;
+	margin-right:550px;
+	padding: 10px 10px 10px 10px;
+	line-height: 1.6em;
+	padding-left:20px;
+	background-color : #24445C;
+	border-style: solid;
+    border-color: white;
+}
+
+#droite{
+	
+	margin-left : 41%;
+}
+
+#img2
+{
+	margin:1%;
+	float:left;
+	width: 35%;
+}
+
+#txt_trous_Noir_special_1{
+	margin: 1%;
+	margin-left:550px;
+	padding: 10px 10px 10px 10px;
+	line-height: 1.6em;
+	padding-left:20px;
+	background-color : #24445C;
+	border-style: solid;
+    border-color: white;
+}
+
+
+/* FIN CSS TROUS NOIRS */
+
+/* CSS GLOSSAIRE */
+
+
+dl{
+	color:#DF0101;
+	text-align:center;
+	border-style: solid;
+    border-color: white;
+	margin-left:10%;
+	margin-right:5%;
+	font-size: 25pt;
+	background-color : #24445C;
+	
+}
+
+dt{
+	color:white;
+	text-align:left;
+	font-size: 20pt;
+	
+}
+
+dd{
+	color:white;
+	text-align:left;
+	margin: 1%;
+	padding: 10px 10px 10px 10px;
+	line-height: 1.6em;
+	padding-left:20px;
+	font-size: 13pt;
+}
+
+#def_gauche{
+	
+	float:left;
+	width:600px;
+}
+
+.def{
+	color:#6E6E6E;
+	text-align:center;
+	font-size:30pt;	
+	border-bottom: 3px solid #6E6E6E;
+}
+
+#def_droit{
+	
+	float:right;
+	width:600px;
+}
+
+/* FIN CSS GLOSSAIRE */
+
+
+
+
+
+
+
+
+
+
